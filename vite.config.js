@@ -7,4 +7,5 @@ export default defineConfig({
     port: 3000,
   },
   plugins: [react()],
+  base: "https://code.wapborhan.com/fonts-cdn/",
 });
