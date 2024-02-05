@@ -1,12 +1,11 @@
-import "./App.css";
-
 function App() {
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-10 col-md-offset-1 main">
-            <h1 className="text-center title">বাংলা ওয়েব ফন্ট</h1>
+      <div className="container px-36">
+        <div className="row text-left">
+          <div className="col-md-10 col-md-offset-1 main space-y-6">
+            <h1 className="text-center title text-3xl">বাংলা ওয়েব ফন্ট</h1>
+
             <p className="intro">
               আস্&zwnj;সালামু আলাইকুম। আমরা যারা ওয়েব ডেভেলপমেন্টের সাথে জড়িত
               তাদের প্রায় সকলেই কমবেশি ওয়েব ফন্ট সম্পর্কে জানি। আর এক্ষেত্রে যে
@@ -42,7 +41,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/solaimanlipi/stylesheet.css')
+                      {
+                        " url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/solaimanlipi/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -56,7 +57,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'SolaimanLipi'</span>
+                  <span className="token string">{"'SolaimanLipi'"}</span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -87,7 +88,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bangla/stylesheet.css')
+                      {
+                        "url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bangla/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -101,7 +104,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Bangla'</span>
+                  <span className="token string">{"'Bangla'"}</span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -127,7 +130,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/ekushey-lohit/stylesheet.css')
+                      {
+                        "url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/ekushey-lohit/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -141,7 +146,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Ekushey Lohit'</span>
+                  <span className="token string">{"'Ekushey Lohit'"}</span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -172,7 +177,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/sornaly/stylesheet.css')
+                      {
+                        "url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/sornaly/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -186,7 +193,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Sornaly'</span>
+                  <span className="token string">{"'Sornaly'"}</span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -212,7 +219,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/lal-sabuj-normal/stylesheet.css')
+                      {
+                        "   url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/lal-sabuj-normal/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -226,7 +235,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'LalSabujNormal'</span>
+                  <span className="token string">{"'LalSabujNormal'"}</span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -266,7 +275,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Noto Sans Bengali'</span>,
+                  <span className="token string">{"'Noto Sans Bengali'"}</span>,
                   sans-serif<span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -292,7 +301,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://fonts.googleapis.com/css?family=Hind+Siliguri')
+                      {
+                        "url('https://fonts.googleapis.com/css?family=Hind+Siliguri')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -306,7 +317,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Hind Siliguri'</span>,
+                  <span className="token string">{"'Hind Siliguri'"}</span>,
                   sans-serif
                   <span className="token punctuation">;</span>
                 </code>
@@ -333,7 +344,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.staticaly.com/gh/sh4hids/bangla-web-fonts/9baee0fc23e77fe957c0b70fe49d81d2cbbe87d6/boshonto/stylesheet.css')
+                      {
+                        "url('https://cdn.staticaly.com/gh/sh4hids/bangla-web-fonts/9baee0fc23e77fe957c0b70fe49d81d2cbbe87d6/boshonto/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -347,7 +360,8 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Boshonto'</span>, sans-serif
+                  <span className="token string">{"'Boshonto'"}</span>,
+                  sans-serif
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -373,7 +387,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/ab-shapla/stylesheet.css')
+                      {
+                        " url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/ab-shapla/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -387,7 +403,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'ABShaplaBeta'</span>
+                  <span className="token string">{"'ABShaplaBeta'"}</span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -413,7 +429,7 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://fonts.googleapis.com/css?family=Atma')
+                      {"url('https://fonts.googleapis.com/css?family=Atma')"}
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -427,7 +443,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Atma'</span>, cursive
+                  <span className="token string">{"'Atma'"}</span>, cursive
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -453,7 +469,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bensen-handwriting/stylesheet.css')
+                      {
+                        "url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bensen-handwriting/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -467,7 +485,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'BenSenHandwriting'</span>
+                  <span className="token string">{"'BenSenHandwriting'"}</span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -493,7 +511,7 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://fonts.googleapis.com/css?family=Galada')
+                      {" url('https://fonts.googleapis.com/css?family=Galada')"}
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -507,7 +525,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Galada'</span>, cursive
+                  <span className="token string">{"'Galada'"}</span>, cursive
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -533,7 +551,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/durbar/stylesheet.css')
+                      {
+                        "url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/durbar/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -547,7 +567,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Durbar'</span>, sans-serif
+                  <span className="token string">{"'Durbar'"}</span>, sans-serif
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -573,7 +593,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://fonts.googleapis.com/css?family=Baloo+Da')
+                      {
+                        "url('https://fonts.googleapis.com/css?family=Baloo+Da')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -587,7 +609,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Baloo Da'</span>, cursive
+                  <span className="token string">{"'Baloo Da'"}</span>, cursive
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -613,7 +635,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/charu-chandan-unicode/stylesheet.css')
+                      {
+                        "url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/charu-chandan-unicode/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -627,7 +651,9 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Charu Chandan Unicode'</span>
+                  <span className="token string">
+                    {"'Charu Chandan Unicode'"}
+                  </span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -653,7 +679,9 @@ function App() {
                   <span className="token atrule">
                     <span className="token rule">@import</span>{" "}
                     <span className="token url">
-                      url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/charukola-reguler-unicode/stylesheet.css')
+                      {
+                        "  url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/charukola-reguler-unicode/stylesheet.css')"
+                      }
                     </span>
                     <span className="token punctuation">;</span>
                   </span>
@@ -667,7 +695,7 @@ function App() {
                 <code className=" language-css">
                   <span className="token property">font-family</span>
                   <span className="token punctuation">:</span>{" "}
-                  <span className="token string">'Charukola Unicode'</span>
+                  <span className="token string">{"'Charukola Unicode'"}</span>
                   <span className="token punctuation">;</span>
                 </code>
               </pre>
@@ -678,7 +706,9 @@ function App() {
       <footer className="footer">
         <div className="container-fluid">
           <div className="row">
-            <div className="container text-center"></div>
+            <div className="container text-center">
+              Developed by <a href="http://www.srdreamlab.com">SR Dream Lab</a>
+            </div>
           </div>
         </div>
       </footer>
